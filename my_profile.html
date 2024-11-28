@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@kora71781</title>
+    <style>
+      body {
+    background-color: #6a5acd;
+    font-family: Arial, sans-serif; /* 기본 폰트 설정 */
+    display: flex;
+    flex-direction: column; /* 세로 방향 정렬 */
+    align-items: center; /* 중앙 정렬 */
+    justify-content: center; /* 화면 중앙 배치 */
+    min-height: 100vh; /* 화면 높이 전체 사용 */
+    margin: 0;
+}
+
+.profile {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 250px;
+    width: 250px; /* 프로필 박스 크기 설정 */
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* 세로로 정렬 */
+    justify-content: center; /* 세로 중앙 정렬 */
+    align-items: center; /* 가로 중앙 정렬 */
+    padding: 20px;
+}
+
+.profile img {
+    width: 100px; /* 이미지 너비 */
+    height: 100px; /* 이미지 높이 */
+    border-radius: 50%; /* 원형으로 만들기 */
+    object-fit: cover; /* 이미지가 원에 맞게 잘리도록 설정 */
+    margin-bottom: 10px; /* 이미지와 텍스트 사이 간격 */
+    border: 5px solid rgb(190, 5, 5);
+}
+
+.profile h2 {
+    color: rgb(0, 0, 0); /* 이름 텍스트 색상 */
+    margin: 0; /* 기본 마진 제거 */
+}
+
+.massage {
+    color: gray;
+}
+
+/* 공통 버튼 스타일 */
+button {
+    width: 300px; /* 버튼 너비 고정 */
+    height: 50px; /* 버튼 높이 고정 */
+    font-size: 16px; /* 글자 크기 */
+    font-weight: bold; /* 글자 두께 */
+    color: white; /* 글자 색상 */
+    border: none; /* 테두리 제거 */
+    border-radius: 5px; /* 둥근 모서리 */
+    cursor: pointer; /* 마우스 커서 */
+    transition: background-color 0.3s, transform 0.2s;
+    margin: 10px 0; /* 버튼 간 간격 */
+    text-align: center; /* 글자 정렬 */
+    line-height: 50px; /* 글자가 높이 중앙에 오도록 설정 */
+}
+
+/* 플랫폼별 스타일 */
+.insta button {
+    background-color: #ff008c;
+}
+.insta button:hover {
+    background-color: #990255;
+}
+
+.X button {
+    background-color: #00a2ff;
+}
+.X button:hover {
+    background-color: #024064;
+}
+
+.TikTok button {
+    background-color: #353434;
+}
+.TikTok button:hover {
+    background-color: #000000;
+}
+
+.Youtube button {
+    background-color: #ff0000;
+}
+.Youtube button:hover {
+    background-color: #880000;
+}  
+    </style>
+</head>
+<body>
+    <div class="profile">
+        <img src="my_icon.jpg" alt="Profile Picture">
+        <div>
+            <h2>정우진</h2>
+            <span>@kora71781</span>
+            <span class="massage"><br><br>나 존나 심심한데 팔로우 고고해줘잉🙏🙏</span>
+        </div>
+    </div>
+    <div>
+    <div class="insta">
+        <a href="https://www.instagram.com/kora71781/" target="_blank"><button>Instagram</button></a>
+    </div>
+    <div class="X">
+        <a href="https://x.com/kora71781" target="_blank"><button>X</button></a>
+    </div>
+    <div class="TikTok">
+        <a href="https://www.tiktok.com/@korakora123" target="_blank"><button>TikTok</button></a>
+    </div>
+    <div class="Youtube">
+        <a href="https://www.youtube.com/channel/UCkoNaWO98wwfm2Iurec4UNQ" target="_blank"><button>Youtube</button></a>
+    </div>
+</body>
+</html>
